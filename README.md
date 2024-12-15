@@ -1,0 +1,2 @@
+# Solidity Gas Limit Bug
+This repository demonstrates a common bug in Solidity smart contracts related to the gas limit of the `transfer` function.  The `withdraw` function in `bug.sol` fails if the transfer requires more than 2300 gas units.  The solution, `bugSolution.sol`, shows how to resolve this using `send`, `call`, or a more robust approach.
